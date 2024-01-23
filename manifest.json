@@ -5,7 +5,7 @@
     "icons": {
         "16": "reddirector.png"
       },
-    "description": "Automatically redirects from reddit.com to new.reddit.com.\n\n If you hate the new UI and can't change it, just use this to fix your problems!",
+    "description": "Automatically redirects from reddit.com to new.reddit.com. If you hate the new UI and can't change it, just use this to fix your problems!",
     "permissions": ["tabs"],
     "host_permissions": ["*://*.reddit.com/*"],
     "background": {

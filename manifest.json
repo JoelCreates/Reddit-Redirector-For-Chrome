@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Reddit Redirect",
+    "version": "1.0",
+    "icons": {
+        "16": "reddirector.png"
+      },
+    "description": "Automatically redirects from reddit.com to new.reddit.com.\n\n If you hate the new UI and can't change it, just use this to fix your problems!",
+    "permissions": ["tabs"],
+    "host_permissions": ["*://*.reddit.com/*"],
+    "background": {
+      "service_worker": "redirect.js"
+    }
+  }
+  
+  
